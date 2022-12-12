@@ -1,6 +1,7 @@
 # pwmTOppm
 
-### Generation of a PPM signal for Flysky receivers that dont have PPM output.
+### Yet another generator of a PPM signal for Flysky receivers that don’t have PPM output.
+Contributions:  many implementations of PWM to PPM convertors are available on the net...  
 
 Runs on  **Arduino Promini 5v 16Mhz** Atmega328 (or Atmega128)  
 
@@ -33,7 +34,7 @@ The order of the PPM pulses will not be the order of the ports, but the order of
 | **PPM output**  |  pin D12 |  | 
 |||
 
-The conversion is pretty acurate as can be seen in the .logicdata capture files provided in the captureFile directory.  
+The conversion is pretty accurate as can be seen in the .logicdata capture files provided in the captureFile directory.  
 They can be explored with Saleae Logic Software. 
 
 <img src="/img/8channels.JPG" >  
